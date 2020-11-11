@@ -2,7 +2,7 @@ const ambiente = process.env.NODE_ENV || 'development'
 
 const configuracionBase = {   // esta configuración base será modificada eventualmente
     jwt:{},                   // por valores que están seteados en los archivos dev,prod, test.etc
-    puerto:3002,                // LUEGO DEL SWITCH SE VAN A SOBREESCRIBIR LOS VALORES
+    puerto:5010,                // LUEGO DEL SWITCH SE VAN A SOBREESCRIBIR LOS VALORES
     suprimirLogs:false,        // según el ambiente
     dbconfig:{}
 }

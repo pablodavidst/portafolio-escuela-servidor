@@ -7,7 +7,10 @@ module.exports ={
         user: 'xxx',
         password: 'xxx',
         server: 'xxx', 
-        database: 'xxx'
+        database: 'xxx',   
+        options: {
+            encrypt: false,
+        },
+//        MultipleActiveResultSets:true 
     }
 }
-
